@@ -49,8 +49,8 @@ A Dialogflow CX chatbot agent integrated with external APIs for billing and lice
    DB_HOST=YOUR_DB_HOST
    DB_USER=YOUR_DB_USER
    DB_PASSWORD=YOUR_DB_PASSWORD
-   DB_NAME=dialogflow_data
-   DB_PORT=3306
+   DB_NAME=YOUR_DB_NAME
+   DB_PORT=YOUR_DB_PORT
    ```
 
 4. **Database setup:**
@@ -87,7 +87,7 @@ A Dialogflow CX chatbot agent integrated with external APIs for billing and lice
 6. **Expose with ngrok (local development):**
 
    ```bash
-   ngrok http 5000
+   ngrok http xxxx
    ```
 
    Copy the HTTPS URL and configure it as your webhook URL in Dialogflow CX.
